@@ -1,0 +1,2 @@
+# JsonToSwiftModel
+IOS课堂作业，将Json文件转为Swift中的struct并写入.swift文件中

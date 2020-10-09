@@ -240,9 +240,9 @@ func main(){
         exit(0)
     }
     
-    var jsonStr: String = readJsonFile(fileName: fileName)
+    let jsonStr: String = readJsonFile(fileName: fileName)
     
-    var jsonData = getJsonData(jsonString: jsonStr)
+    let jsonData = getJsonData(jsonString: jsonStr)
     var result: String = jsonDataToSwiftStr(jsonFileName: fileName, jsonData: jsonData)
     
     while !objects.isEmpty{
